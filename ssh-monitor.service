@@ -1,0 +1,15 @@
+[Unit]
+Description=SSH Login Monitor with Discord Alerts
+After=network.target syslog.target
+
+[Service]
+ExecStart=/usr/local/bin/ssh_monitor.sh
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=ssh-monitor
+User=root
+
+[Install]
+WantedBy=multi-user.target
