@@ -8,7 +8,7 @@ This script monitors your server for **successful SSH logins** and sends an aler
 
 ```bash
 git clone https://github.com/crypt0g30rgy/ssh-mon.git
-cd ssh-monitor-discord
+cd ssh-mon
 ```
 
 ### 2. Configure webhook
