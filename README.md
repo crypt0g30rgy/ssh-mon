@@ -7,7 +7,7 @@ This script monitors your server for **successful SSH logins** and sends an aler
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/YOURUSERNAME/ssh-monitor-discord.git
+git clone https://github.com/crypt0g30rgy/ssh-mon.git
 cd ssh-monitor-discord
 ```
 
